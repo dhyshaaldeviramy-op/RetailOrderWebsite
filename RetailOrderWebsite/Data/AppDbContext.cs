@@ -17,5 +17,7 @@ namespace RetailOrderWebsite.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
         public DbSet<Cart> Carts { get; set; }
+
+        public DbSet<Payment> Payments { get; set; }
     }
 }
