@@ -12,8 +12,8 @@ using RetailOrderWebsite.Data;
 namespace RetailOrderWebsite.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260410052420_InitalCreate")]
-    partial class InitalCreate
+    [Migration("20260411060518_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
